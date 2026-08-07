@@ -48,10 +48,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# Heavy Data Files & Datasets (Can be downloaded anytime via src/ scripts)
-data/raw/*
-data/synthetic/*
-data/validated/*
-!data/raw/.gitkeep
-!data/synthetic/.gitkeep
-!data/validated/.gitkeep
+# Heavy Data Files over 100MB (GitHub Limit)
+data/raw/grammar.jsonl
