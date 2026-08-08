@@ -47,6 +47,3 @@ env/
 # Operating System
 .DS_Store
 Thumbs.db
-
-# Heavy Data Files over 100MB (GitHub Limit)
-data/raw/grammar.jsonl
